@@ -4,3 +4,4 @@ Untracked files from github for project.
 /project/db.sqlite3
 /project/project/__pycache__
 /project/app1/__pycache__
+/.env
