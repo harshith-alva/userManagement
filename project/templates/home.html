@@ -1,0 +1,8 @@
+{% extends 'index.html' %}
+{% block content %}
+<h2>You Are Successfully Logged In</h2>
+<form method='POST'>
+    {% csrf_token %}
+    <a href="{% url 'logout' %}" class="btn btn-outline-danger mt-4" value="submit">LogOut</a>
+</form>
+{% endblock %}
