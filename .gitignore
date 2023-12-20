@@ -2,4 +2,4 @@ Untracked files from github for project.
 
 /.vscode
 /project/db.sqlite3
-/project/project/_pycache_
+/project/project/__pycache__
